@@ -62,7 +62,7 @@ $blueprint-font-size: 12px !default;
 }
 
 @mixin blueprint-typography-defaults {
-  #{headers(all)} { @include header-text;
+  h1, h2, h3, h4, h5, h6 { @include header-text;
     img             { margin: 0; } }
   h1              { font-size: 3em;   line-height: 1;    margin-bottom: 0.50em; }
   h2              { font-size: 2em;                      margin-bottom: 0.75em; }
